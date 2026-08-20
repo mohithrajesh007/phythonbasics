@@ -3,7 +3,7 @@ import turtle
 mohith = turtle.Screen()
 
 mohith.title("undercontrol")
-mohith.setup(12,20)
+mohith.setup(1200,700)
 mohith.listen()
 
 mario = turtle.Turtle()
