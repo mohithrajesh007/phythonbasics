@@ -146,7 +146,7 @@ def mariopendown():
     mario.pendown()
 
 def obstaclesforscreen2():
-    if mario.xcor() > 1200:
+    if mario.xcor() > 1400:
         mario.goto(-325,-250)
         obstacle.goto(-325,-250)
         obstacle1.goto(-325,-250)
