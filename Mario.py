@@ -130,7 +130,7 @@ def positionsofeverything():
 
 def mariojump():
     mario.left(90)
-    mario.forward(125)
+    mario.forward(115)
     mario.right(90)
     mario.forward(150)
 
