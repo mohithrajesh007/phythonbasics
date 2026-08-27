@@ -203,7 +203,8 @@ def controlls():
     mohith.onkey(moveright,"Right")
     mohith.onkey(mariojump,"H")
 
-mariojump()
+#mariojump()
+mohith.listen()
 controlls()
 positionsofeverything()
 moveleft()
