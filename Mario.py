@@ -136,7 +136,7 @@ def mariojump():
 
 def moveright():
     mario.forward(20)
-    mohith.listen()
+    obstaclesforscreen2()
 
 def moveleft():
     mario.backward(30)
