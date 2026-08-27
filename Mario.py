@@ -207,9 +207,8 @@ def controlls():
 mohith.listen()
 controlls()
 positionsofeverything()
-moveleft()
-moveright()
-obstaclesforscreen2()
+#moveleft()
+#moveright()
 turtle.done()
 
 #TODO
