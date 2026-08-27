@@ -140,7 +140,7 @@ def moveright():
 
 def moveleft():
     mario.backward(30)
-    mohith.listen()
+    obstaclesforscreen2()
 
 def mariopendown():
     mario.pendown()
