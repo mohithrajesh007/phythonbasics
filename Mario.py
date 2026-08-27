@@ -148,6 +148,9 @@ def mariopendown():
 def obstaclesforscreen2():
     if mario.xcor() > 700:
         print("you have reached 2 screen")
+        positionsofeverythingscreen2()
+
+def positionsofeverythingscreen2():
         mario.goto(-325,-250)
         obstacle.goto(-325,-250)
         obstacle1.goto(-325,-250)
