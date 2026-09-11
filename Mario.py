@@ -213,4 +213,3 @@ turtle.done()
 #TODO
 #i need to work on the gravity
 #i need to work on the wall
-#i need to work on the obstacles in screen 2
