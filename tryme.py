@@ -1,2 +1,2 @@
 print("trying git")
-prit("Now we are checking how to modify")
+print("Now we are checking how to modify")
