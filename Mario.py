@@ -22,7 +22,6 @@ clouds5 = turtle.Turtle()
 
 mario.shape("arrow")
 mario.color("red")
-mario.shapesize(1)
 mario.penup()
 
 obstacle.speed(12)
