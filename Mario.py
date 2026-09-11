@@ -208,8 +208,6 @@ def controlls():
 mohith.listen()
 controlls()
 positionsofeverything()
-#moveleft()
-#moveright()
 turtle.done()
 
 #TODO
