@@ -56,6 +56,7 @@ def starting_screen():
     player.pencolor("black")
     player.goto(-345, 250)
     player.write("Controls: Up arrow - up",font = 5)
+    player.forward(50)
     player.write("Down arrow - down", font=5)
     player.forward(20)
     player.write("Left arrow - left", font=5)
