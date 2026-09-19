@@ -212,6 +212,7 @@ def movedown():
     obstaclesforscreen2()
 
 def controlls():
+    mohith.onkey(movedown,"Down")
     mohith.onkey(moveleft,"Left")
     mohith.onkey(moveright,"Right")
     mohith.onkey(mariojump,"H")
