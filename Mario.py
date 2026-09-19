@@ -200,6 +200,17 @@ def positionsofeverythingscreen2():
         obstacle4.showturtle()
         obstacle5.showturtle()
 
+def moveup():
+    mario.right(90)
+    mario.back(30)
+    mario.left(90)
+
+def movedown():
+    mario.left(90)
+    mario.back(30)
+    mario.right(90)
+    obstaclesforscreen2()
+
 def controlls():
     mohith.onkey(moveleft,"Left")
     mohith.onkey(moveright,"Right")
