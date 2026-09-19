@@ -216,6 +216,7 @@ def controlls():
     mohith.onkey(moveleft,"Left")
     mohith.onkey(moveright,"Right")
     mohith.onkey(mariojump,"H")
+    mohith.onkey(moveup,"Up")
 
 mohith.listen()
 controlls()
