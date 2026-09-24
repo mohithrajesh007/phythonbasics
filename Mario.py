@@ -146,8 +146,22 @@ def mariopendown():
 
 def obstaclesforscreen2():
     if mario.xcor() > 570:
-     print("you have reached 2 screen")
-     positionsofeverythingscreen2()
+        mario.hideturtle()
+        clouds.hideturtle()
+        clouds4.hideturtle()
+        clouds3.hideturtle()
+        clouds2.hideturtle()
+        clouds1.hideturtle()
+        clouds5.hideturtle()
+        mario.goto(0,-10)
+        mario.write("you have reached 2 screeen",font=50)
+        clouds.showturtle()
+        clouds5.showturtle()
+        clouds1.showturtle()
+        clouds2.showturtle()
+        clouds3.showturtle()
+        clouds4.showturtle()
+        positionsofeverythingscreen2()
 
 def positionsofeverythingscreen2():
         mario.goto(-325,-250)
