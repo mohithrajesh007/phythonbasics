@@ -222,6 +222,8 @@ mohith.listen()
 controlls()
 positionsofeverything()
 turtle.done()
+obstaclesforscreen2()
+gravity()
 
 #TODO
 #i need to work on the gravity
