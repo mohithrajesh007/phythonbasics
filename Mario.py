@@ -199,6 +199,11 @@ def positionsofeverythingscreen2():
         obstacle3.showturtle()
         obstacle4.showturtle()
         obstacle5.showturtle()
+        gravity()
+
+def gravity():
+    if mario.xcor() > -325 :
+        mario.goto(-300,0)
 
 def moveup():
     mario.right(90)
