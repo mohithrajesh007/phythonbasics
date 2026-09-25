@@ -153,8 +153,6 @@ def obstaclesforscreen2():
         clouds2.hideturtle()
         clouds1.hideturtle()
         clouds5.hideturtle()
-        mario.goto(0,-10)
-        mario.write("you have reached 2 screeen",font=50)
         clouds.showturtle()
         clouds5.showturtle()
         clouds1.showturtle()
