@@ -218,14 +218,6 @@ def positionsofeverythingscreen2():
         gravity()
 print("positionofeverythingscreen2:stop")
 
-def gravity():
-    if mario.distance(obstacle) < 1 :
-        mario.goto(-10,0)
-        if mario.distance(obstacle1) < 1 :
-            mario.goto(-10,0)
-            positionsofeverything()
-            obstaclesforscreen2()
-
 def moveup():
     mario.right(90)
     mario.back(30)
