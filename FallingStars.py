@@ -22,7 +22,7 @@ basket.penup()
 
 def level_tracking():
     if star.distance(basket) < 50:
-
+        + 10
         levelTracker.color("blue")
     levelTracker.shape("square")
     levelTracker.penup()
@@ -34,7 +34,6 @@ def positions():
     basket.goto(0,-250)
 
 def screenstarting():
-
     basket.forward(30)
     basket.showturtle()
     star.showturtle()

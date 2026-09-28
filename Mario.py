@@ -145,6 +145,7 @@ def mariopendown():
     mario.pendown()
 
 def obstaclesforscreen2():
+    print("obstaclesforscreen2: start")
     if mario.xcor() > 570:
         mario.hideturtle()
         clouds.hideturtle()
@@ -160,8 +161,11 @@ def obstaclesforscreen2():
         clouds3.showturtle()
         clouds4.showturtle()
         positionsofeverythingscreen2()
+        print("obstaclesforscreen2: stop")
+
 
 def positionsofeverythingscreen2():
+        print("positionsforeverythingscreen2:start")
         mario.goto(-325,-250)
         obstacle.goto(-325,-250)
         obstacle1.goto(-325,-250)
@@ -212,10 +216,15 @@ def positionsofeverythingscreen2():
         obstacle4.showturtle()
         obstacle5.showturtle()
         gravity()
+print("positionofeverythingscreen2:stop")
 
 def gravity():
-    if mario.xcor() > -325 :
-        mario.goto(-300,0)
+    if mario.distance(obstacle) < 1 :
+        mario.goto(-10,0)
+        if mario.distance(obstacle1) < 1 :
+            mario.goto(-10,0)
+            positionsofeverything()
+            obstaclesforscreen2()
 
 def moveup():
     mario.right(90)
