@@ -215,7 +215,6 @@ def positionsofeverythingscreen2():
         obstacle3.showturtle()
         obstacle4.showturtle()
         obstacle5.showturtle()
-        gravity()
 print("positionofeverythingscreen2:stop")
 
 def moveup():
